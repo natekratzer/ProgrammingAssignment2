@@ -3,6 +3,8 @@
 ## Makes a list of functions so that when a matrix is given to the overall
 ## function, when inverted, the inverse is stored in cached memory
 
+#a brilliant comment
+
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
   set<-function(y){
